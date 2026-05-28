@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+    - name: sources
+      database: workspace
+      schema: default
+      tables:
+        - name: categories
+        - name: products
+        - name: suppliers
+        - name: employees
+        - name: orderdetails
+        - name: customers
+        - name: orders
+        - name: shippers
+
