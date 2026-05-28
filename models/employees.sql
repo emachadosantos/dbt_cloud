@@ -1,3 +1,4 @@
+--model employees
 with funcionarios as (
     select
         date_part('year', current_date) - date_part('year', BirthDate) as age,
