@@ -40,5 +40,3 @@ models:
     +catalog: workspace
     +schema: default
     # Applies to all files under models/
-    example:
-      +materialized: table
